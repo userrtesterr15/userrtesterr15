@@ -1,1 +1,9 @@
-{"client_id": "attacker_controlled", "redirect_uri": "https://example.com"}
+{
+  "client_id": "attacker_controlled_id",
+  "client_secret": "attacker_controlled_secret",
+  "redirect_uri": "https://example.com",
+  "authorization_endpoint": "https://example.com/auth",
+  "token_endpoint": "https://example.com/token",
+  "response_type": "code",
+  "scope": "openid"
+}
